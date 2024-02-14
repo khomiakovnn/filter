@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Portfolio from './App.jsx'
-import './index.css'
+import Portfolio from './Portfolio'
 
 const projects = [{
   img: "https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/events-state/filter/img/mon.jpg",
@@ -55,7 +54,6 @@ const projects = [{
   img: "https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/events-state/filter/img/place200x290_3.png",
   category: "Flayers"
 }]
-
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
